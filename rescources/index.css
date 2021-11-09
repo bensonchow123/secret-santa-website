@@ -9,7 +9,7 @@
   bottom: 0;
   z-index: -1;
 }
-.fullscreen-bg::before {
+.background-video{
     position: absolute;
     top: 0;
     right: 0;

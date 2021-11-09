@@ -1,3 +1,8 @@
+body {
+  height:100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .navbar-ref {
   color: #000000;
   font-family: 'Open Sans', sans-serif;
@@ -34,3 +39,12 @@
   }
 
 }
+
+a::selection,
+span::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+a::selection,
+span::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */

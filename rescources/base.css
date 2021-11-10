@@ -18,6 +18,7 @@ body {
 }
 
 .list-inline {
+  float: right;
   display: flex;
   text-decoration: none;
   justify-content: space-around;

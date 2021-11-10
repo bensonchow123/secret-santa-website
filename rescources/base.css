@@ -13,7 +13,6 @@ body {
 .navbar-ul {
     background-color: rgba(255,255,255,0.5);;
     display: flex;
-    justify-content: flex-end;
     width: 100%;
 
 }

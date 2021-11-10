@@ -30,7 +30,7 @@ body {
 .navbar-ul a {
   float: left;
   color: black;
-  text-align: center;
+  text-align: left;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 

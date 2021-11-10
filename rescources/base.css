@@ -39,8 +39,8 @@ body {
   float: right;
 }
 
-.face {
-  position: absolute;
+* {
+   cursor: url('follow_face.png'), auto;
 }
 
 @media screen and (max-width: 1094px) {

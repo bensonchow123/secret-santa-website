@@ -39,7 +39,7 @@ body {
   float: right;
 }
 
-@media only screen and (max-width: 1094px) {
+@media screen and (max-width: 1094px) {
   .header a.logo {
     display: none;
   }

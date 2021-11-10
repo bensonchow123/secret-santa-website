@@ -45,6 +45,8 @@ body {
   }
   .header-right {
     float: left;
+    word-spacing: 5px;
   }
+  
 }
 

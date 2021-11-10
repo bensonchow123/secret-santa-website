@@ -40,7 +40,7 @@ body {
 }
 
 @media only screen and (max-width: 1094px) {
-  .header a.logo {
+  .header a {
     visibility: hidden
   }
 }

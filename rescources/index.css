@@ -10,3 +10,7 @@
   z-index: -1;
   filter: brightness(75%);
 }
+
+h1 {
+  text-align: center;
+}

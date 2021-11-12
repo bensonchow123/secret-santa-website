@@ -23,6 +23,9 @@ body {
   filter: brightness(50%);
 }
 
+.fix {
+  display: inline-block
+}
 
 #center {
   text-align: center;

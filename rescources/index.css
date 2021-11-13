@@ -23,8 +23,9 @@ body {
   filter: brightness(50%);
 }
 
-.fix {
-  display: inline-block
+.text {
+  display: inline-block;
+  color: #fff;  
 }
 
 #center {

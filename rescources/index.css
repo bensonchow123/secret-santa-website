@@ -34,6 +34,10 @@ body {
 @media screen and (max-width: 600px) {
   .text {
     font-size: 20px;
-    white-space: nowrap; 
+    display: inline-block;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
   }
 }

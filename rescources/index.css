@@ -2,14 +2,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Arial, sans-serif;
-
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
 }
-
 #background-video {
   height: 100vh;
   width: 100vw;
@@ -23,10 +21,8 @@ body {
   filter: brightness(50%);
 }
 
-.text {
-  display: inline-block;
-  color: #fff;  
-}
+.fix {
+  display: inline-block
 
 #center {
   text-align: center;

@@ -2,6 +2,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Arial, sans-serif;
+  text-align: center;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -26,5 +27,4 @@ body {
   color: #fff;
   margin: 0px;
   padding: 0px;
-  text-align: center;
 }

@@ -32,7 +32,7 @@
 }
 
 * {
-   cursor: url('face-cursor.png'), auto;
+   cursor: url('media/face-cursor.png'), auto;
 }
 
 @media screen and (max-width: 1094px) {

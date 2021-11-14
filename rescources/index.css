@@ -26,7 +26,7 @@ body {
 }
 
 .text {
-  font-size: 2vw;
+  font-size: 2.5vw;
   display: inline-block;
   color: #fff;
   margin: 0px;
@@ -35,12 +35,12 @@ body {
 }
 
 #tree {
-  width: 8vw;
+  width: 9vw;
   height: auto;
 }
 
 #snowman {
-  width: 2.5vw;
+  width: 3vw;
   height: auto;
 }
 

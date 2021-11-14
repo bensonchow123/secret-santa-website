@@ -32,8 +32,7 @@ body {
 }
 
 .picture {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -44,5 +43,8 @@ body {
     margin: 0px;
     padding: 0px;
     white-space: nowrap;
+  }
+  .picture {
+    width: 50%;
   }
 }

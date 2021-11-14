@@ -23,14 +23,17 @@ body {
 
 .center {
   text-align: center;
+  top: 0;
 }
 
 .left {
   text-align: left;
+  top: 0;
 }
 
 .right {
   text-align: right;
+  top: 0;
 }
 
 .text {

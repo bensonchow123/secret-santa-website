@@ -26,7 +26,7 @@ body {
 }
 
 .text {
-  font-size: 35px;
+  font-size: 2vw;
   display: inline-block;
   color: #fff;
   margin: 0px;
@@ -34,22 +34,13 @@ body {
   white-space: nowrap; 
 }
 
-.picture {
-  max-width: 100%;
+#tree {
+  width: 8vw;
   height: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .text {
-    font-size: 17.5px;
-    display: inline-block;
-    color: #fff;
-    margin: 0px;
-    padding: 0px;
-    white-space: nowrap;
-  }
-  .picture {
-    max-width: 40%;
-    height: auto;
-  }
+#snowman {
+  width: 2.5vw;
+  height: auto;
 }
+

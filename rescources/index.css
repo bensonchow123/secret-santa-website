@@ -25,6 +25,14 @@ body {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
 .text {
   font-size: 2.5vw;
   display: inline-block;

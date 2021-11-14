@@ -2,7 +2,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  text-align: center;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -20,6 +19,10 @@ body {
   bottom: 0;
   z-index: -1;
   filter: brightness(50%);
+}
+
+.center {
+  text-align: center;
 }
 
 .text {

@@ -43,21 +43,21 @@ body {
 }
 
 #tree {
-  width: 9vh;
-  height: auto;
+  height: 9vh;
+  width: auto;
 }
 
 #snowman {
-  width: 3vh;
-  height: auto;
+  height: 3vh;
+  width: auto;
 }
 
 #rickmas {
-  width: 20vh;
-  height: auto;
+  height: 20vh;
+  width: auto;
 }
 
 #spinningFace {
-  width: 5vh;
-  height: auto;
+  height: 5vh;
+  width: auto;
 }

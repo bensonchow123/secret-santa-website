@@ -34,7 +34,7 @@ body {
 }
 
 .text {
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   display: inline-block;
   color: #fff;
   margin: 0px;
@@ -43,21 +43,21 @@ body {
 }
 
 #tree {
-  width: 9vw;
+  width: 9vh;
   height: auto;
 }
 
 #snowman {
-  width: 3vw;
+  width: 3vh;
   height: auto;
 }
 
 #rickmas {
-  width: 20vw;
+  width: 20vh;
   height: auto;
 }
 
 #spinningFace {
-  width: 5vw;
+  width: 5vh;
   height: auto;
 }

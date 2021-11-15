@@ -21,6 +21,11 @@ body {
   margin-right:auto;
 }
 
+#santa {
+  height: 125vh;
+  width: 15vh
+}
+
 #merrychristmas {
   text-align: center;
   color: #fff;

@@ -1,10 +1,6 @@
 body {
   overflow: hidden;
   font-family: Arial, sans-serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  -ms-user-select: none;
 }
 
 #background {

@@ -54,7 +54,7 @@ body {
 
 #rickmas {
   height: 20vh;
-  width: 20vw
+  width: auto;
 }
 
 #spinningFace {

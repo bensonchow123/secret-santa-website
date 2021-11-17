@@ -67,6 +67,7 @@ body {
   height: auto;
 } 
 
-#button {
-
+#smallFace {
+  width: 8vh;
+  height: auto;
 }

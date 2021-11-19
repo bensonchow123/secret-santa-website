@@ -43,13 +43,13 @@ body {
 }
 
 #tree {
-  width: 20vh;
-  height: auto;
+  width: auto;
+  height: 20vh;
 }
 
 #snowman {
-  width: 8vh;
-  height: auto;
+  width: auto;
+  height: 8vh;
 }
 
 #rickmas {
@@ -58,18 +58,16 @@ body {
 }
 
 #spinningFace {
-  width: 10vh;
-  height: auto;
+  width: auto;
+  height: 10vh;
 }
 
 #raindeer {
-  width: 30vh;
-  height: auto;
+  width: auto;
+  height: 30vh;
 } 
 
 #smallFace {
-  margin-left: auto;
-  margin-right: auto;
-  width: 8vh;
-  height: auto;
+  width: auto;
+  height: 8vh;
 }

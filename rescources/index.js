@@ -5,4 +5,5 @@ function addFace() {
   img.setAttribute("id", "smallFace");
   body = document.getElementsByTagName('body')[0];
   body.appendChild(img)
+  init()
 }

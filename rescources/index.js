@@ -1,5 +1,5 @@
 function randomImage(){
-  let imagesArray = ['rescources/media/face-spinning.gif', 'rescources/media/snowman.png'];
+  let imagesArray = ['rescources/media/face-spinning.gif', 'rescources/media/snowman.png', 'rescources/media/elves.png'];
   let num = Math.floor(Math.random() * imagesArray.length);
   let randomNum = Math.random() * (11 - 6 + 1) + 6;
   let img = document.createElement("img");

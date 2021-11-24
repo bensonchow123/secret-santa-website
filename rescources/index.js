@@ -6,7 +6,7 @@ function randomImage(){
   img.src = imagesArray[num];
   img.classList.add('box2d');
   img.style.height = `${randomNum}vmin`;
-  div = document.getElementById("top");
+  div = document.getElementById("clickme");
   div.appendChild(img)
   init()
 }

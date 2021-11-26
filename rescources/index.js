@@ -12,7 +12,10 @@ function randomImage(){
 }
 
 function randomJoke (){
-  let randomJokes = []
+  let randomJokes = [''
+                    ];
+  let index = Math.floor(Math.random() * randomJokes.length);
+  alert(randomJokes[index])
 }
 
 function onload() {

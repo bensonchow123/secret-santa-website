@@ -11,20 +11,10 @@ function randomImage(){
   init()
 }
 
+function randomJoke (){
+  let randomJokes = []
+}
+
 function onload() {
-  if (!("Notification" in window)) {
-    alert("This browser does not support desktop notification");
-  }
-  
-  else if (Notification.permission === "granted") {
-    var notification = new Notification("Merry christmas!");
-  }
-  
-  else if (Notification.permission !== "denied") {
-    Notification.requestPermission().then(function (permission) {
-      if (permission === "granted") {
-        var notification = new Notification("Merry christmas!");
-      }
-    });
-  }
+  alert("Merry christmas!!!");
 }

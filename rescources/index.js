@@ -20,7 +20,7 @@ function randomImage(){
 }
 
 function randomJoke() {
-  let popup = document.getElementById("Popup");
+  let popup = document.getElementById("myPopup");
   let randomJokes = ['Why do reindeer like Beyoncé so much? She sleighs.',
                      'What reindeer game do reindeer play at sleepovers? Truth or deer.',
                      'What did Santa say when he stepped into a big puddle? It must have reindeer.',

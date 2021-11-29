@@ -14,7 +14,7 @@ function randomImage(){
   clickNum += 1
   if (clickNum % randomClick === 0){
     randomJoke()
-    randomClick = Math.floor(Math.random() * (17 - 7 + 1) + 7);
+    randomClick = Math.floor(Math.random() * (10 - 5 + 1) + 5);
     clickNum = 0;
   }
 }

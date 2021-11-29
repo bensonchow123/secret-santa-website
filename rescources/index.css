@@ -95,12 +95,12 @@ body {
 }
 
 #tree {
-  width: 15vmin;
+  width: 20vmin;
   height: auto;
 }
 
 #snowman {
-  width: 8vmin;
+  width: 6.5vmin;
   height: auto;
 }
 
@@ -115,6 +115,6 @@ body {
 }
 
 #raindeer {
-  width: 30vmin;
+  width: 32vmin;
   height: auto;
 } 

@@ -13,11 +13,11 @@ function randomImage(){
   img.classList.add('box2d');
   img.style.height = `${randomNum}vmin`;
   div = document.getElementById("clickme");
-  div.appendChild(img)
-  init()
-  clickNum += 1
+  div.appendChild(img);
+  init();
+  clickNum += 1;
   if (clickNum % randomClick === 0){
-    randomJoke()
+    randomJoke();
     randomClick = Math.floor(Math.random() * (10 - 5 + 1) + 5);
     clickNum = 0;
   }
@@ -53,7 +53,7 @@ function randomJoke() {
     let index = Math.floor(Math.random() * randomJokes.length);
     popup.innerHTML = randomJokes[index];
     popup.classList.toggle("show");
-    sleep(4000)
+    sleep(4000);
     popup.classList.toggle("show");
     running = false;
   }

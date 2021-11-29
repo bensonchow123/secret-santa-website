@@ -1,6 +1,7 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 let clickNum  = 0;
 let randomClick =  Math.floor(Math.random() * (20 - 10 + 1) + 10);
 function randomImage(){
@@ -21,9 +22,10 @@ function randomImage(){
     clickNum = 0;
   }
 }
+
 let running = false;
 function randomJoke() {
-  if (!running) {
+  if (running === false) {
     running = true;
     let popup = document.getElementById("myPopup");
     let randomJokes = ['Why do reindeer like Beyoncé so much? She sleighs.',

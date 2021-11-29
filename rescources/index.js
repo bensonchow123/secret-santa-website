@@ -14,7 +14,7 @@ function randomImage(){
   clickNum += 1
   if (clickNum % randomClick === 0){
     randomJoke()
-    randomClick = Math.floor(Math.random() * (20 - 10 + 1) + 10);
+    randomClick = Math.floor(Math.random() * (17 - 7 + 1) + 7);
     clickNum = 0;
   }
 }
@@ -28,9 +28,21 @@ function randomJoke() {
                      'What is Santas dogs name? Santa Paws!',
                      'Where do Santas reindeer stop for coffee? Star-bucks!',
                      'What’s every elf’s favorite type of music? Wrap!',
-                     'What’s every elf’s favorite type of music? Wrap!',
-                     'What happens if you eat Christmas decorations? You get tinsel-it is'
+                     'What happens if you eat Christmas decorations? You get tinsel-it is',
+                     'What do snowmen wear on their heads? Ice caps!',
+                     'What did Adam say the day before Christmas? “It’s Christmas, Eve!”',
+                     'What do you get when you cross a snowman with a vampire? Frostbite!',
+                     'What did the stamp say to the Christmas card? Stick with me and we’ll go places!',
+                     'Why did no one bid for Rudolph and Blitzen on eBay? Because they were two deer!',
+                     'What does the Queen call her Christmas Broadcast? The One Show!',
+                     'Why don’t you ever see Santa in hospital? Because he has private elf care!',
+                     'How did Mary and Joseph know Jesus’ weight when he was born? They had a weigh in a manger!',
+                     'Why is it getting harder to buy Advent calendars? Their days are numbered!',
+                     'How did Scrooge win the football game? The ghost of Christmas passed!',
+                     'What do angry mice send to each other at Christmas? Cross-mouse cards!',
+                     'What do you call a bunch of chess players bragging about their games in a hotel lobby? Chess nuts boasting in an open foyer!'
                     ];
+  
   let index = Math.floor(Math.random() * randomJokes.length);
   popup.innerHTML = randomJokes[index];
   popup.classList.toggle("show");

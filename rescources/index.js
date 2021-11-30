@@ -1,5 +1,5 @@
 let clickNum  = 0;
-let randomClick =  Math.floor(Math.random() * (20 - 10 + 1) + 10);
+let randomClick =  Math.floor(Math.random() * (15 - 5 + 1) + 5);
 function randomImage(){
   let imagesArray = ['rescources/media/face-spinning.gif', 'rescources/media/snowman.png', 'rescources/media/elves.png'];
   let num = Math.floor(Math.random() * imagesArray.length);
@@ -14,7 +14,7 @@ function randomImage(){
   clickNum += 1;
   if (clickNum % randomClick === 0){
     randomJoke();
-    randomClick = Math.floor(Math.random() * (10 - 5 + 1) + 5);
+    randomClick = Math.floor(Math.random() * (15- 5 + 1) + 5);
     clickNum = 0;
   }
 }

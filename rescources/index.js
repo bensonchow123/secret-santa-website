@@ -10,7 +10,7 @@ function randomImage(){
   img.style.height = `${randomNum}vmin`;
   div = document.getElementById("clickme");
   div.appendChild(img);
-  init();
+  init()
   clickNum += 1;
   if (clickNum % randomClick === 0){
     randomJoke();

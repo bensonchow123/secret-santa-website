@@ -50,8 +50,8 @@ function randomJoke() {
     popup.innerHTML = randomJokes[index];
     popup.classList.toggle("show");
     setTimeout(() => {
+    running = false
     popup.classList.toggle('show');
     }, 4000);
-    running = false;
   }
 }

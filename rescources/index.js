@@ -1,7 +1,3 @@
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 let clickNum  = 0;
 let randomClick =  Math.floor(Math.random() * (20 - 10 + 1) + 10);
 function randomImage(){
@@ -53,8 +49,9 @@ function randomJoke() {
     let index = Math.floor(Math.random() * randomJokes.length);
     popup.innerHTML = randomJokes[index];
     popup.classList.toggle("show");
-    sleep(4000);
-    popup.classList.toggle("show");
+    setTimeout(() => {
+    popup.classList.toggle('show');
+    }, 4000);
     running = false;
   }
 }
